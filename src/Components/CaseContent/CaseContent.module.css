@@ -1,0 +1,93 @@
+/* Work info balk */
+
+.workInfoWrapper {
+  padding-left: 10vw;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.workInfoItem {
+  display: flex;
+  flex: 0 0 25%;
+  flex-direction: column;
+}
+
+.workItemUpper {
+  color: #888;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.workItemLower {
+  font-size: 16x;
+  color: #252525;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* Case introductie */
+
+.textIntroductionText {
+  margin: 0;
+  color: black;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 110%;
+  font-family: "Basier Circle";
+}
+
+.caseIntroductionWrapper {
+  position: relative;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.textIntroduction {
+  margin-right: 240px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.introPhoto {
+  margin: 0 auto;
+}
+
+.introPhotoImg {
+  width: 100%;
+}
+
+/* Section one */
+
+.textBlockWrapper {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.textBlockText {
+  width: 50%;
+  font-size: 20px;
+  font-weight: 100;
+  opacity: 50%;
+}
+
+.textBlockTitle {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 130%;
+  margin-bottom: 0;
+}
+
+.textBlockTitleWrapper {
+  width: 50%;
+}
+
+.titleLine {
+  margin-top: 25px;
+  border-left: 40px solid black;
+  height: 3px;
+}

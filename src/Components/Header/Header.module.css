@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.headerList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.headerListItem {
+  float: right;
+  display: block;
+  padding: 24px 24px 24px 0;
+  font-family: "Basier Circle";
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 300;
+  color: black;
+}

@@ -1,0 +1,57 @@
+.footerWrapper {
+  background-color: black;
+}
+
+.footerContent {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.footerContentH3 {
+  font-size: 56px;
+  font-weight: 600;
+  color: white;
+  line-height: 100%;
+  width: fit-content;
+}
+
+.mail {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footerSocialList {
+  padding-left: 0;
+  display: flex;
+}
+
+.footerSocialList a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #999;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 0;
+}
+
+.copyright {
+  margin-top: 60px;
+  color: white;
+  opacity: 80%;
+}
+
+.titleLine {
+  margin-top: 25px;
+  border-left: 80px solid white;
+  height: 3px;
+}
