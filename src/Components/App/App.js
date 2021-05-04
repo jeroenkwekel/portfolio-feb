@@ -4,6 +4,7 @@ import CaseSlider from '../CaseSlider/CaseSlider'
 import CaseContent from '../CaseContent/CaseContent'
 import Data from '../../cases'
 import Footer from '../../Components/Footer/Footer'
+import Header from '../Header/Header'
 
 class App extends React.Component {
   constructor(props) {
@@ -22,6 +23,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Header />
         <CaseSlider client={this.state.active}> 
           <TabNav clients={this.state.data} active={ this.state.active.name } setSelected={ this.setSelected } />
         </CaseSlider>
@@ -31,4 +33,5 @@ class App extends React.Component {
     );
   }
 }
+
 export default App;

@@ -1,7 +1,10 @@
 .header {
   position: relative;
   max-width: 80%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+  margin-top: -72px;
 }
 
 .headerList {
@@ -20,5 +23,5 @@
   font-size: 24px;
   line-height: 100%;
   font-weight: 300;
-  color: black;
+  color: white;
 }
