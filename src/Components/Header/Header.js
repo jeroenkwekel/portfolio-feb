@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import styles from "./Header.module.css";
 import "../../fonts/fonts.css";
 
-
+import {
+  Link
+} from "react-router-dom";
 
 class Header extends Component {
   render() {
@@ -19,13 +21,11 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className={styles.headerListItem} href="/">
-                CV
-              </a>
+            <Link className={styles.headerListItem} to="/about">Over mij</Link>
             </li>
             <li>
               <a className={styles.headerListItem} href="/">
-                Work
+                Werk
               </a>
             </li>
           </ul>
