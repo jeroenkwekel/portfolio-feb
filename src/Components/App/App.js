@@ -1,8 +1,7 @@
 import React from 'react'
-import Data from '../../cases'
 
 import Home from '../../Pages/home'
-import About from '../../Pages/about'
+import AboutPage from '../../Pages/about'
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,17 +13,11 @@ import {
 
 class App extends React.Component {
 
-
-  setSelected = (client) => {
-    this.setState({ active: client });
-    console.log(this.state.active)
-  }
-
   render() {
     return (
       <Router>
       <Switch>
-        <Route path="/about" component={About} />
+        <Route path="/about" component={AboutPage} />
         <Route path="/" component={Home} />
       </Switch>
       </Router>
