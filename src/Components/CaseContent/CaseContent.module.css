@@ -75,6 +75,7 @@
   opacity: 50%;
 }
 
+
 .textBlockTitle {
   font-weight: 300;
   font-size: 40px;
@@ -90,4 +91,68 @@
   margin-top: 25px;
   border-left: 40px solid black;
   height: 3px;
+}
+
+@media only screen and (max-width: 950px) {
+  .textIntroduction {
+    margin-right: 0;
+  }
+
+  .textBlockWrapper {
+    flex-direction: column;
+  }
+
+  .textBlockText {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 700px) { 
+  .caseIntroductionWrapper { 
+    max-width: 95%;
+  }
+  .workInfoItem { 
+    flex: 0 0 22%;
+  }
+  .workInfoWrapper { 
+    padding-left: 0vw;
+  }
+}
+
+@media only screen and (max-width: 580px) { 
+
+  }
+
+@media only screen and (max-width: 400px) { 
+  .workInfoWrapper { 
+    flex-direction: column;
+    padding-left: 16px;
+  }
+
+  .workInfoItem {
+    margin-bottom: 16px;
+  }
+
+  .textIntroductionText {
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .textIntroduction {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .textBlockTitle {
+    font-size: 32px;
+  }
+
+  .textBlockText {
+    font-size: 16px;
+  }
+
+  .textBlockTitleWrapper {
+    width: 90%;
+  }
 }

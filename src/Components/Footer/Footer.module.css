@@ -1,5 +1,6 @@
 .footerWrapper {
   background-color: black;
+  margin-top: 80px;
 }
 
 .footerContent {
@@ -54,4 +55,18 @@
   margin-top: 25px;
   border-left: 80px solid white;
   height: 3px;
+}
+
+@media only screen and (max-width: 400px) { 
+  .footerWrapper {
+    margin-top: 40px;
+  }
+
+  .footerContent {
+    max-width: 95%;
+  }
+
+  .footerContentH3 {
+    font-size: 48px;
+  }
 }
