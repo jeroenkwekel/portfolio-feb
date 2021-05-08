@@ -26,20 +26,53 @@ class CaseContent extends Component {
                 </div>
                 <div className={styles.caseIntroductionWrapper}>
                     <div className={styles.textIntroduction}>
-                        <h4 className={styles.textIntroductionText} >Twee jonge ondernemers, die ook nog eens broers zijn. En, oja.. ze zijn ook nog de zoons van een plantenkweker! Combineer dat met de wil om het kopen van planten simpeler te maken en tada.. Plantsome is geboren.</h4>
+                        <h4 className={styles.textIntroductionText} >{client.intro}</h4>
                     </div>
                     <div className={styles.introPhoto}>
-                        <img className={styles.introPhotoImg} alt="First-mockup" src="https://assets.weareadaptable.com/app/uploads/2020/08/25082036/bah_1.png" />
+                        <img className={styles.introPhotoImg} alt="First-mockup" src={client.img_1} />
                     </div>
 
                     <div className={styles.textBlockWrapper} >
                         <div className={styles.textBlockTitleWrapper}>
-                            <div className={styles.textBlockTitle}>Vraag van <br /> de klant</div>
+                            <div className={styles.textBlockTitle}>{client.title_1}</div>
                             <div className={styles.titleLine}></div>
                         </div>
                         
-                        <p className={styles.textBlockText} >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+                        <p className={styles.textBlockText} >{client.txt_1}</p>
                     </div>
+                    <div className={styles.introPhoto}>
+                        <img className={styles.introPhotoImg} alt="First-mockup" src={client.img_2} />
+                    </div>
+                    <div className={styles.textBlockWrapper} >
+                    <div className={styles.textBlockTitleWrapper}>
+                        <div className={styles.textBlockTitle}>{client.title_2}</div>
+                        <div className={styles.titleLine}></div>
+                    </div>
+                    <p className={styles.textBlockText} >{client.txt_2}</p>
+                </div>
+                <div className={styles.introPhoto}>
+                        <img className={styles.introPhotoImg} alt="First-mockup" src={client.img_3} />
+                    </div>
+                    <div className={styles.textBlockWrapper} >
+                    <div className={styles.textBlockTitleWrapper}>
+                        <div className={styles.textBlockTitle}>{client.title_3}</div>
+                        <div className={styles.titleLine}></div>
+                    </div>
+                    <p className={styles.textBlockText} >{client.txt_3}</p>
+                </div>
+                <div className={styles.introPhoto}>
+                <img className={styles.introPhotoImg} alt="First-mockup" src={client.img_4} />
+                <div className={styles.textBlockWrapper} >
+                    <div className={styles.textBlockTitleWrapper}>
+                        <div className={styles.textBlockTitle}>{client.title_4}</div>
+                        <div className={styles.titleLine}></div>
+                    </div>
+                    <p className={styles.textBlockText} >{client.txt_4}</p>
+                    
+                </div>
+                <img className={styles.introPhotoImg} alt="First-mockup" src={client.img_5} />
+            </div>
+            
                 </div>
             </article>
         );
