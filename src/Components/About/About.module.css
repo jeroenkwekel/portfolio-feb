@@ -71,14 +71,14 @@
 
 .WorkTitle p {
     font-size: 18px;
-    color: #CCCCCC;
+    color: #4F4F4F;
     padding-top: 48px;
 }
 
 .WorkCopy {
     font-size: 16px;
     font-weight: 100;
-    opacity: 50%;
+    color: #4F4F4F;
 }
 
 /* About content right */
