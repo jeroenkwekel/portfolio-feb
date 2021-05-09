@@ -12,21 +12,13 @@ class Header extends Component {
         <div className={styles.header}>
           <ul className={styles.headerList}>
             <li>
-              <a
-                className={styles.headerListItem}
-                style={{ float: "left" }}
-                href="/"
-              >
-                Jeroen Kwekel
-              </a>
+              <Link className={styles.headerListItem} style={{ float: "left" }} to="/">Jeroen Kwekel</Link>
             </li>
             <li>
             <Link className={styles.headerListItem} to="/about">Over mij</Link>
             </li>
             <li>
-              <a className={styles.headerListItem} href="/">
-                Werk
-              </a>
+            <Link className={styles.headerListItem} to="/">Werk</Link>
             </li>
           </ul>
         </div>

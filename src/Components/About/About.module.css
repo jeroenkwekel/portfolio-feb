@@ -2,14 +2,14 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1584298104670-fce18a128356?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
     background-position: 50% 50%;
     width: 100vw;
-    height: 40vh;
+    height: 300px;
     margin-top: -72px;
 }
 
 .headerContent {
     max-width: 80%;
     margin: 0 auto;
-    padding-top: 250px;
+    padding-top: 140px;
     display: flex;
 }
 
@@ -122,6 +122,10 @@
 
 
 @media only screen and (max-width: 770px) {
+    .Header {
+        height: 400px;
+    }
+
     .headerContent {
         flex-direction: column;
         padding-top: 100px;
