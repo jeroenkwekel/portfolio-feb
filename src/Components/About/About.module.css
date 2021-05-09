@@ -1,7 +1,172 @@
 .Header {
-    background-image: url(https://images.unsplash.com/photo-1584298104670-fce18a128356?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1584298104670-fce18a128356?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
     background-position: 50% 50%;
     width: 100vw;
     height: 40vh;
     margin-top: -72px;
+}
+
+.headerContent {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 250px;
+    display: flex;
+}
+
+.headerContentText {
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.headerContentText ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+.headerContentText li {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.headerContentText li:not(:first-child) {
+    margin-left: 24px;
+}
+
+.headerContent h1 {
+    color: white;
+    font-size: 56px;
+}
+
+.profilePicture {
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 16px solid white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.35);
+}
+
+
+.aboutConcentWrapper {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+/* About content left */
+
+.aboutContentLeft {
+    padding-top: 120px;
+    margin-right: 64px;
+}
+
+.WorkTitle h2  {
+    font-size: 40px;
+    margin-bottom: 16px;
+    line-height: 110%;
+}
+
+.WorkTitle p {
+    font-size: 18px;
+    color: #CCCCCC;
+    padding-top: 48px;
+}
+
+.WorkCopy {
+    font-size: 16px;
+    font-weight: 100;
+    opacity: 50%;
+}
+
+/* About content right */
+
+.aboutcontentRight {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row:not(:first-child) {
+    margin-top: 32px;
+}
+
+.row h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.row ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.row li {
+    font-weight: 100;
+    margin-bottom: 4px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .aboutConcentWrapper {
+        max-width: 90%;
+    }
+
+    .headerContent {
+        max-width: 95%;
+    }
+} 
+
+
+@media only screen and (max-width: 770px) {
+    .headerContent {
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .profilePicture {
+        max-width: 150px;
+        border: 8px solid white;
+    }
+    .headerContentText {
+        margin-left: 0;
+    }
+    .headerContent h1 {
+        font-size: 48px;
+    }
+    .headerContentText li {
+        font-size: 18px;
+    }
+
+    .aboutContentLeft {
+        padding-top: 0px;
+    }
+    .aboutcontentRight {
+        padding-top: 60px;
+    }
+    .WorkTitle h2 {
+        font-size: 32px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .aboutConcentWrapper {
+        flex-direction: column;
+    }
+
+    .aboutContentLeft {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .headerContentText li:not(:first-child) {
+        margin-left: 12px;
+    }
+    .headerContentText li {
+        font-size: 16px;
+    }
 }

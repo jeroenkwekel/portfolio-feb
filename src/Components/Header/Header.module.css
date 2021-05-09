@@ -23,6 +23,7 @@
   line-height: 100%;
   font-weight: 300;
   color: white;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.45);
 }
 
 
@@ -34,6 +35,15 @@
 
   .headerListItem {
     font-size: 20px;
+    padding: 24px 16px 16px 0;
   }
 
+}
+
+@media only screen and (max-width: 320px) {
+  .headerListItem {
+    padding-right: 0;
+    padding-left: 8px;
+    font-size: 18px;
+  }
 }

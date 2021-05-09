@@ -55,4 +55,12 @@
   .tabNavList {
     flex-direction: column;
   }
+
+  .liActive {
+    text-align: center;
+  }
+
+  .liInactive {
+    text-align: center;
+  }
 }
