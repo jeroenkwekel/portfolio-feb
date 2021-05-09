@@ -10,7 +10,7 @@ export default class About extends Component {
             <div className={styles.aboutWrapper}>
                 <div className={styles.Header}>
                     <div className={styles.headerContent}>
-                        <img alt="Portrait" className={styles.profilePicture} src="/images/jeroen.jpeg" />
+                        <img alt="Portrait" className={styles.profilePicture} src="/images/Jeroen.jpeg" />
                         <div className={styles.headerContentText}>
                             <h1>Jeroen Kwekel</h1>
                             <ul>
